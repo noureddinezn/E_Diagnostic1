@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="https://jakarta.ee/xml/ns/jakartaee"
+       version="4.0"
+       bean-discovery-mode="all">
+</beans>
+
+//cd "C:\Users\noureddine\Downloads\apache-tomcat-10.1.60-windows-x64\apache-tomcat-10.1.60\bin"
+//.\catalina.bat run
