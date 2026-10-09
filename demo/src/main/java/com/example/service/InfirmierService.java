@@ -36,7 +36,10 @@ public class InfirmierService {
         return patient;
     }
 
-    public Consultation ajouterEnFileAttente( Patient patient, String tension,    Integer frequenceCardiaque, Double temperature,
+    public Consultation ajouterEnFileAttente(
+            Patient patient,
+            String tension,
+            Integer frequenceCardiaque,
             Double temperature,
             Integer frequenceRespiratoire,
             Double poids,
