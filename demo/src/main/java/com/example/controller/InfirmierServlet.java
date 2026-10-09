@@ -164,11 +164,6 @@ public class InfirmierServlet extends HttpServlet {
 
         if ("patientExistant".equals(action)) {
 
-            Long patientId =
-                    Long.parseLong(
-                            request.getParameter("patientId")
-                    );
-
             Patient patient = infirmierService
                     .rechercherPatient(
                             request.getParameter("numeroSocial")
