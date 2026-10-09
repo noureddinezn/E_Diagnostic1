@@ -1,0 +1,17 @@
+demo/target/
+target/
+*.class
+*.war
+*.ear
+*.jar
+
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+
+*.log
