@@ -8,19 +8,24 @@
     <title>Connexion - Tele Expertise</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/app.css">
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<body class="login-body">
 
-<div class="bg-white p-8 rounded-lg shadow-md w-96">
+<div class="login-card p-8">
 
-    <h2 class="text-2xl font-bold text-center text-blue-700 mb-6">
+    <h2 class="text-3xl font-extrabold text-center text-slate-900 mb-2">
         Tele Expertise
     </h2>
 
+    <p class="text-center text-slate-500 mb-6">
+        Connexion securisee
+    </p>
+
     <% if (request.getParameter("error") != null) { %>
 
-        <div class="bg-red-100 text-red-700 p-3 rounded mb-4 text-center">
+        <div class="app-alert text-center">
 
             <% if ("invalid".equals(request.getParameter("error"))) { %>
 

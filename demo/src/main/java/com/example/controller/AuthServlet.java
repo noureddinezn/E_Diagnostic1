@@ -55,7 +55,7 @@ public class AuthServlet extends HttpServlet {
 
             case GENERALISTE:
                 response.sendRedirect(
-                        request.getContextPath() + "/generaliste.jsp"
+                        request.getContextPath() + "/generaliste"
                 );
                 break;
 
